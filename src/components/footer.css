@@ -1,4 +1,9 @@
 .footer {
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  bottom: 0;
+  width: 100%;
   text-align: center;
   color: white;
   background-color: rgb(34, 34, 34);

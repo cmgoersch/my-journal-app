@@ -17,6 +17,7 @@
 }
 
 .motto_input {
+  max-width: 100%;
   display: inline-block;
   margin: 10px 0px 10px 0px;
   border: 1px solid #ccc;
@@ -36,6 +37,7 @@
 }
 
 .notes_input {
+  max-width: 100%;
   display: inline-block;
   margin: 10px 0px 10px 0px;
   border: 1px solid #ccc;
