@@ -1,0 +1,31 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+}
+
+.card_title {
+  font-size: larger;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.card_date {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.card_bottom_line {
+  border-bottom: 1px solid #ccc;
+}
+
+.card_star {
+  display: flex;
+  flex-direction: column;
+  flex-direction: row-reverse;
+  border: none;
+  background: none;
+}

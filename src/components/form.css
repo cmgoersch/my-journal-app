@@ -1,17 +1,50 @@
 .form {
   display: flex;
   flex-direction: column;
+
   padding: 5%;
+}
+
+.button_center {
+  display: flex;
+  justify-content: center;
 }
 
 .motto_title {
   font-size: large;
   display: flex;
   flex-direction: column;
-  border: gray 1px;
+}
+
+.motto_input {
+  max-width: 100%;
+  display: inline-block;
+  margin: 10px 0px 10px 0px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font: inherit;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 
 .notes_title {
+  margin-top: 30px;
+  font-size: large;
   display: flex;
   flex-direction: column;
+}
+
+.notes_input {
+  max-width: 100%;
+  display: inline-block;
+  margin: 10px 0px 10px 0px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font: inherit;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }

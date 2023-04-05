@@ -1,4 +1,5 @@
 .button {
+  justify-content: center;
   background-color: orangered;
   color: white;
   width: 160px;
