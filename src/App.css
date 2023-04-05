@@ -50,3 +50,34 @@ main {
   flex-direction: column;
   text-align: center;
 }
+
+.entries_favorites {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding: 5%;
+}
+
+.entries {
+  color: orangered;
+  padding: 5px;
+}
+
+.entries_Number {
+  background-color: orangered;
+  font-weight: bold;
+  color: white;
+  padding: 5px 14px 5px 14px;
+  border-radius: 19px;
+}
+
+.favorites {
+  padding: 5px;
+}
+
+.favorites_Number {
+  background-color: lightgrey;
+  font-weight: bold;
+  padding: 5px 14px 5px 14px;
+  border-radius: 19px;
+}
