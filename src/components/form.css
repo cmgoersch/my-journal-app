@@ -1,0 +1,17 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+}
+
+.motto_title {
+  font-size: large;
+  display: flex;
+  flex-direction: column;
+  border: gray 1px;
+}
+
+.notes_title {
+  display: flex;
+  flex-direction: column;
+}
