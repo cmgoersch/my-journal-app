@@ -13,7 +13,9 @@ export default function Form() {
           Notes
         </label>
         <textarea class="notes_input" type="text" name="notes" id="notes" />
-        <Button />
+        <div className="button_center">
+          <Button />
+        </div>
       </form>
     </>
   );

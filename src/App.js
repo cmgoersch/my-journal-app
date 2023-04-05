@@ -17,8 +17,8 @@ export default App;
 function Main() {
   return (
     <>
-      <main>
-        <h3>New Entry</h3>;
+      <main className="main">
+        <h3 className="main_title">New Entry</h3>
         <Form />
       </main>
     </>
