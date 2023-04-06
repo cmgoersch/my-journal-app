@@ -3,10 +3,9 @@
   flex-direction: column;
   position: sticky;
   bottom: 0;
-
   text-align: center;
-  color: white;
-  background-color: rgb(34, 34, 34);
+  color: var(--color-foam);
+  background-color: var(--color-granite);
   padding: 10px;
   margin: 0;
   position: absolute, bottom;
