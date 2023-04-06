@@ -1,3 +1,6 @@
+import star from "../resources/star.svg";
+import starFilled from "../resources/star-filled.svg";
+
 import "./card.css";
 
 export function Card() {
@@ -5,11 +8,7 @@ export function Card() {
     <>
       <div className="card">
         <button className="card_star" type="submit" data-js="star">
-          <img
-            data-js="star-icon"
-            src=".../resources/star.svg"
-            alt="Star Icon"
-          />
+          <img data-js="star-icon" src={star} alt="Star Icon" />
         </button>
         <date className="card_date" type="date">
           FEB 27, 2028
