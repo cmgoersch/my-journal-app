@@ -19,7 +19,7 @@ export function Card() {
             setLoggedIn(!loggedIn);
           }}
         >
-          {loggedIn ? <Star /> : <StarFilled />}
+          {loggedIn ? <StarFilled /> : <Star />}
         </button>
         <date className="card_date" type="date">
           FEB 27, 2028

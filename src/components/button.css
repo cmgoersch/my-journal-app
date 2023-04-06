@@ -1,7 +1,7 @@
 .button {
   justify-content: center;
-  background-color: orangered;
-  color: white;
+  background-color: var(--color-nemo);
+  color: var(--color-foam);
   width: 160px;
   font-size: large;
   font-weight: bold;
@@ -9,4 +9,9 @@
   border: none;
   margin: 30px;
   border-radius: 7px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: var(--color-nemo-dark);
 }
